@@ -37,8 +37,29 @@ MORSE_CODE = {
   '----.' => '9'
 }
 
-puts MORSE_CODE['--...']
 
 def deco_char(char)
   MORSE_CODE[char]
 end
+
+#Decode char
+puts deco_char('--...') # 7
+
+
+def decode_word(word)
+  word.split(' ').map {|char| deco_char(char)}.join()
+end
+
+#Decode word
+puts decode_word("-- -.--")  # MY
+puts decode_word("-. .- -- .") # NAME
+
+def decode(text)
+  text.split('   ').map { |word| decode_word(word)}.join(' ')
+end
+
+#Decode text
+puts decode("-- -.--   -. .- -- .") # MY NAME
+
+#MY NAME
+puts decode(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...") 
