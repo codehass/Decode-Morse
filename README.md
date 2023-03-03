@@ -1,7 +1,7 @@
-<a name="readme-top"></a>
+<a name="readme-top" align="center"></a>
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  MORSE CODE DECODER
   <br/>
 
 </div>
@@ -17,11 +17,11 @@
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
+  <!-- - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
+  - [Deployment](#triangular_flag_on_post-deployment) -->
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -31,28 +31,22 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Air Pollution] <a name="about-project"></a>
+# 📖 MORSE CODE DECODER <a name="about-project"></a>
 
-**[Air Pollution]** The Air Pollution App informs users about the air quality of countries worldwide. It features a convenient and precise search by region and a search bar for specific country searches.
+**MORSE CODE DECODER** The Morse Code Decoder is a program built with ruby to automate the decryption of morse code messages.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-- Reactjs
-- Redux
-- JavaScript
-- CSS
-- Jest
-- Linters
+- Ruby
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[Information about air quality]**
-- **[search by country]**
-- **[search by region]**
+- Decode morse numbers and alphabeth
+- Decode an entire word/message in Morse code, takes a string parameter, and return the string representation
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -60,8 +54,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://air-pollution-5kp2.onrender.com/)
-- [Video Link](https://drive.google.com/file/d/1O_66vk20viiEHYcvnNYqmiXJ-na53NyT/view?usp=sharing)
+- [Live Demo Link](#)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -80,25 +73,24 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  cd air-pollution
-  git https://github.com/codehass/air-pollution.git
+git@github.com:codehass/Decode-Morse.git
+cd Decode-Morse
 ```
 
-### Install
+<!-- ### Install
 
 Install this project with:
 
 ```sh
- npm install
-```
+ 
+``` -->
 
-### Usage
+<!-- ### Usage
 
 To run the project, execute the following command:
 
 ```sh
- npm run build
- npm start
+ 
 ```
 
 ### Run tests
@@ -106,7 +98,7 @@ To run the project, execute the following command:
 To run tests, run the following command:
 
 ```sh
-  npm test
+  
 ```
 
 ### Deployment
@@ -114,8 +106,8 @@ To run tests, run the following command:
 You can deploy this project using:
 
 ```sh
-npm start
-```
+
+``` -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,15 +121,19 @@ npm start
 - Twitter: [@hassanelourdy](https://twitter.com/hassanelourdy)
 - LinkedIn: [Hassan El OUARDY](https://www.linkedin.com/in/hassan-el-ouardy-360b99169/)
 
+👤 **Emmanuella Adu**
+
+- GitHub: [@elarhadu](https://github.com/elarhadu)
+- Twitter: [@elarh_](https://twitter.com/elarh_)
+- LinkedIn: [Emmanuella Adu](https://linkedin.com/in/emmanuella-adu)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **[Information about air quality]**
-- **[search by country]**
-- **[search by region]**
+- Decode special characters
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,7 +143,7 @@ npm start
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/codehass/air-pollution/issues).
+Feel free to check the [issues page](https://github.com/codehass/Decode-Morse/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -163,7 +159,7 @@ If you like this project give us ⭐
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank [ Nelson Sakwa on behance](https://www.behance.net/sakwadesignstudio) for the design inspiration.
+I would like to thank [Microverse](https://github.com/microverseinc) for this project inspiration.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
