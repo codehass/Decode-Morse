@@ -1,5 +1,5 @@
 MORSE_CODE = {
-  '.-'=> 'A',
+  '.-' => 'A',
   '-...' => 'B',
   '-.-.' => 'C',
   '-..' => 'D',
@@ -35,31 +35,31 @@ MORSE_CODE = {
   '--...' => '7',
   '---..' => '8',
   '----.' => '9'
-}
+}.freeze
 
 
 def deco_char(char)
   MORSE_CODE[char]
 end
 
-#Decode char
+# Decode char
 puts deco_char('--...') # 7
 
 
 def decode_word(word)
-  word.split(' ').map {|char| deco_char(char)}.join()
+  word.split.map { |char| deco_char(char) }.join
 end
 
-#Decode word
-puts decode_word("-- -.--")  # MY
-puts decode_word("-. .- -- .") # NAME
+# Decode word
+puts decode_word('-- -.--') # MY
+puts decode_word('-. .- -- .') # NAME
 
 def decode(text)
-  text.split('   ').map { |word| decode_word(word)}.join(' ')
+  text.split('   ').map { |word| decode_word(word) }.join(' ')
 end
 
-#Decode text
-puts decode("-- -.--   -. .- -- .") # MY NAME
+# Decode text
+puts decode('-- -.--   -. .- -- .') # MY NAME
 
-#MY NAME
-puts decode(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...") 
+# MY NAME
+puts decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
