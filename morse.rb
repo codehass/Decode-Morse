@@ -37,14 +37,12 @@ MORSE_CODE = {
   '----.' => '9'
 }.freeze
 
-
 def deco_char(char)
   MORSE_CODE[char]
 end
 
 # Decode char
 puts deco_char('--...') # 7
-
 
 def decode_word(word)
   word.split.map { |char| deco_char(char) }.join
